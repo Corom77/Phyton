@@ -89,7 +89,7 @@ def pendu():
             used_letter.append(user_letter)
             lives-=1
             print(lives_visual_dict[lives])
-            print(f"C'est unemauvaise réponse.\n{reveal_letter}.\n Pour rapel vous avez déjà dit {used_letter}.")
+            print(f"C'est une mauvaise réponse.\n{reveal_letter}.\n Pour rapel vous avez déjà dit {used_letter}.")
     if lives == 0:
         print(f"Tu as perdu le mot était: {word}")
         exit()
